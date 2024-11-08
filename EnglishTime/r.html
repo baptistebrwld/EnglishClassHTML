@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English for Programmers</title>
+    <link rel="icon" type="image/x-icon" href="/fav_geek.jpg">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Paul & Baptiste Website</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="/home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html.html">HTML</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/python.html">Python</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/r.html">R <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container mt-5">
+        <h1>Welcome to R Basics for Programmers</h1>
+        <p>R is a powerful programming language widely used in data analysis, statistical computing, and visualization. It’s popular among data scientists and researchers for its capabilities with large datasets and statistical methods.</p>
+        
+        <h2>R Keywords</h2>
+        <ul>
+            <li><strong>library()</strong>: Used to load packages, extending R’s functionality.</li>
+            <li><strong>&lt;-</strong>: Assignment operator to assign values to variables.</li>
+            <li><strong>function()</strong>: Used to define a function.</li>
+            <li><strong>if, else, else if</strong>: Control statements for conditional logic.</li>
+            <li><strong>for, while</strong>: Looping constructs for iterating over elements.</li>
+            <li><strong>data.frame()</strong>: Function to create a data frame, a table-like structure.</li>
+            <li><strong>plot()</strong>: Basic plotting function for data visualization.</li>
+        </ul>
+        
+        <h2>R Tips</h2>
+        <ol>
+            <li>Use <code>data.frame</code> for data manipulation and organization; it’s a primary data structure in R.</li>
+            <li>Leverage R’s packages like <code>ggplot2</code> for advanced visualizations and <code>dplyr</code> for data manipulation.</li>
+            <li>Use vectorized operations for efficiency—R is optimized for handling vectors and matrices.</li>
+            <li>Organize your code in scripts, and use comments (#) to explain each step.</li>
+            <li>Use <code>summary()</code> and <code>str()</code> to explore data structures before performing complex operations.</li>
+        </ol>
+
+        <p>R is a great tool for data science and statistical analysis, making it a go-to language for data-driven projects. Dive in and explore!</p>
+    </div>
+
+    <div class="container mt-5">
+        <h1>Welcome to R Basics for Programmers</h1>
+        <p>R is a powerful programming language widely used in data analysis, statistical computing, and visualization. It’s popular among data scientists and researchers for its capabilities with large datasets and statistical methods.</p>
+        
+        <h2>Sample R Code</h2>
+        <pre>
+# Create a data frame
+data <- data.frame(
+    Name = c("Alice", "Bob", "Carol"),
+    Age = c(24, 30, 28)
+)
+
+# Calculate the mean age
+mean_age <- mean(data$Age)
+print(mean_age)
+        </pre>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
